@@ -6,8 +6,8 @@ class MathOperations
     // Method that accepts two integer parameters
     public void PerformMathOperation(int firstNumber, int secondNumber)
     {
-        // Perform a simple math operation on the first number (e.g., multiplying by 2)
-        int result = firstNumber * 2;
+        // Perform a simple math operation on the first number (e.g., multiplying by 4)
+        int result = firstNumber * 4;
 
         // Output the second number to the screen
         Console.WriteLine("The second number is: " + secondNumber);
@@ -25,9 +25,9 @@ class Program
         MathOperations mathOps = new MathOperations();
 
         // Calling the method with two integer parameters
-        mathOps.PerformMathOperation(5, 10);  // Multiplying 5 by 2, then displaying 10
+        mathOps.PerformMathOperation(9, 13); 
 
         // Calling the method using named parameters (for better readability)
-        mathOps.PerformMathOperation(firstNumber: 8, secondNumber: 20);  // Multiplying 8 by 2, then displaying 20
+        mathOps.PerformMathOperation(firstNumber: 18, secondNumber: 24);  
     }
 }
